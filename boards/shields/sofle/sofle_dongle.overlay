@@ -1,12 +1,1 @@
-#import "sofle.dtsi"
-
-&physical_layout0 {
-    transform = <&josefadamcik_sofle_layout>;
-};
-
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &josefadamcik_sofle_layout;
-    };
-};
+#include "sofle.dtsi"
